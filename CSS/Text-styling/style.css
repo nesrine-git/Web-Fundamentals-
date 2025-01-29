@@ -1,0 +1,23 @@
+h1 {
+color :white;
+background-color :black;
+text-align :left;
+text-decoration :none;
+font-style :normal;
+}
+
+h2 {
+    color :white;
+    background-color :purple;
+    text-align:center;
+    text-decoration : none; 
+    font-style : italic;
+}
+
+h3 {
+    color :black;
+    background-color :cornflowerblue;
+    text-align : end;
+    text-decoration : underline;
+    font-style :normal;
+}

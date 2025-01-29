@@ -1,0 +1,59 @@
+
+  #box-1{
+    height: 50%;
+    width: 50%;
+    margin-top: 65px;
+    margin-bottom: 5px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  #box-2{
+    height: 50%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-right: 150px;
+    margin-left: 83px;
+  }
+  #box-3{
+    height: 50%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  #search{
+    height: 27px;
+    width: 130px;
+    border: 2px solid #50b4b6;
+    border-radius:  50px 50px;
+    color:#2aa5a7;
+    background-color: rgb(247, 247, 241);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 12px;
+    
+  }
+  #plus{
+    height: 35px;
+    width: 35px;
+    border: hidden;
+    border-radius: 50%;
+    color:  #f5fdfc;
+    background-color:#00d1b2;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 19px;
+  }
+  #account{
+    height: 32px;
+    width: 160px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    color: #f5fdfc;
+    background-color: #2b78e4;
+    font-size: 15px;
+  }
+
+  
+  

@@ -1,0 +1,246 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.nav{
+    height: 45px;
+    background-color: #474646;
+    padding: 0 265px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.link{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.nav-links{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style-type:none;    
+}
+.nav-title{
+    font-size: 25px;
+    color: white;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.active{
+   font-weight: bold ;
+   
+}
+.btn{
+    height: 25px;
+    width: 90px;
+    background-color:#17A2B8;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    color: white;
+    font-weight: bold;
+}
+.body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+}
+.block_1{
+height: 400px;
+width: 550px;
+margin-left: 100px;
+}
+.block_2{
+    height:440px;
+    width: 300px; 
+}
+.card{
+    height: 320px;
+    width: 650px;
+    padding-top: 30px;
+
+}
+.blue{
+    height: 55px;
+    width: 500px;
+    background-color: #17a2b8;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 30px;
+ }
+ .white{ 
+    height: 150px;   
+    width: 497px;  
+    border: 2px solid #CDCDCD;
+    border-top: 0;
+    padding-top: 40px;
+    padding-left: 20px;
+
+ }
+ .circle_card{
+     height: 78px;
+     width: 78px;
+     margin-top: 15px;
+     background-color: aliceblue;
+     border: 2px solid #CDCDCD;
+     border-radius: 50%;
+ }
+ .img_card {
+     height: 75px;
+     border-radius: 50%;
+     margin-left: 2px;
+     margin-top: 1px;
+ }
+ .map{
+     height: 12px;
+ }
+ .gear{
+    height: 12px;
+    color: #085394;
+ }
+ p{
+     margin:10px 0;
+     font-size: 14px;
+ }
+ .bunch-1{
+    width: 60px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+ }
+ 
+ .bunch-2{
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  margin-right: 10px;
+ }
+ 
+ a{
+     color : #20649E;
+     font-size: 13px;
+     font-weight: 600;
+ }
+ h1{
+    font-size: 25px;
+     margin-bottom: 4px;
+ }
+
+.education{
+    height: 120px;
+    width: 520px;
+    margin-top: 20px;
+}
+.education_header{
+   height: 30px ;
+   background-color: #333333;
+   border-radius: 3px;
+   padding: 10px 0 0 20px;
+}
+.education_body{
+    padding-top: 10px;
+    padding-left: 20px;
+    border: 2px solid #999;
+    border-bottom: 0;
+}
+.education_body h4,
+.education_body h5,
+.education_body p{
+    margin: 5px 0;
+}
+h5{
+    color: #8F8F8F;
+}
+.title{
+    font-weight: normal;
+    color: whitesmoke;
+}
+.connection{
+    height: 150px;
+    width: 220px;
+}
+.block_2 #cnx_request{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.connection_header{
+    height: 30px;
+    background-color: #333333;
+    border-radius: 3px;
+    padding: 5px 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.connection_body{
+    height: 90px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #999;
+}
+.connection #colleague{
+    height: 200px;
+    
+}
+.circle{
+    height:25px;
+    width: 25px;
+    background-color: #999;
+    border-radius: 50%;
+ }
+.circle h6{
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-top: 4px;
+    margin-left: 8px;
+    
+} 
+.connection_header #c2 h6{
+    margin-left: 5px;
+}
+.connection_header #c2{
+  width: 40px;
+}
+.footer{
+    height: 25px;
+    border: 2px solid #999;
+    border-top: 0;
+ }
+.img{
+    height: 35px;
+    border-radius: 50%;
+}
+.icon{
+    height: 25px;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.friend{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+h6{
+    margin-left: 10px;
+}
+.footer a{
+    margin-left:10px;
+}
+

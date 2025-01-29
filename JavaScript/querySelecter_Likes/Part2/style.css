@@ -1,0 +1,92 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.header {
+    width: 1000px;
+    height: 55px;
+    background-color: black;
+    color: white; 
+    padding: 4px  20px;
+}
+.feed {
+    text-align: center;
+}
+
+.body {
+    display : flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.col {
+    width: 220px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 30px 0;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.box {
+    width: 720px;
+    height: 195px;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 25px;
+
+}
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2 p {
+  margin-top: 20px;
+}
+.like {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width: 110px;
+    height: 57px;
+    background-color:#ffd966;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+  }  
+.row2 a, p, .btn {
+    font-size: 30px;  
+}
+a {
+    font-size: 25px;
+    color: #085394;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
